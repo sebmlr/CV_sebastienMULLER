@@ -4,7 +4,7 @@
     }
     body{
         margin: 0px 0px 10px 0px;
-        background: fixed url(/pictures/bg_body.jpg);
+        background: fixed url(/images/bgbody.jpg);
         background-size: cover;}
     header{
         /*border: solid green 3px;*/
