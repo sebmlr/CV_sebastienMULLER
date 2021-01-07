@@ -1,3 +1,36 @@
-body{
-    background-color: blue;
-}
+*{
+    /*border: solid black 1px;*/
+    color: white;
+    }
+    body{
+        margin: 0px 0px 10px 0px;
+        background: fixed url(/pictures/bg_body.jpg);
+        background-size: cover;}
+    header{
+        /*border: solid green 3px;*/
+        padding: 15px 0px 15px 0px;
+    }
+    #dwwm{
+        width: 73%;
+        border-top: #dfdbac solid 8px;
+        border-bottom: #dfdbac solid 8px;
+        margin: 30px 0px 20px 0px;
+        text-align: center;
+    }
+    #course{
+        margin: 0;
+    }
+    .bglight,section{
+        background-color: #201f33;
+    }
+    .bgdark{
+        background-color: #201f33;
+    }
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    TABLE,tr,td{
+        border: rgb(0, 0, 0) SOLID 1PX;
+    }
+    
