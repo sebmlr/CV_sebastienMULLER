@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -8,102 +8,136 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/timeline.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <title>CV Sébastien MULLER</title>
 </head>
 
 <body>
+
     <header>
-        <div id="picture_cv">
-            <img src="images/cvphoto.jpg" alt="photo_cv" width="500px">
-        </div>
-        <div id="aboute_me"></div>
+        <span class="header_intro">Bonjour, je m'appel Sébastien et je suis actuellement en formation pour
+            devenir</span>
+        <h1 class="header_dwwm">Développeur WEB et WEB Mobile</h1>
+        <span class="header_presentation">Je suis à la recherche d'un <span class="strong">projet</span> à
+            réaliser dans le cadre d'un stage afin de
+            compléter ma formation.<br> Celui-ci doit se dérouler durant les mois d'<span class="strong">Avril, Mai et
+                Juin</span> 2021.<br> Je suis disponible aux alentours de <span class="strong">Lille, Valenciennes,
+                Douai et Arras</span></span>
+        <nav id="nav_main"></nav>
     </header>
-    <nav id="nav_main"></nav>
 
+    <section class="about_me bglight">
+        <img src="images/cvphoto.jpg" alt="photo_cv" width="500px">
+        <div class="column_right">
+            <h1>À propos de moi</h1>
+            <h2>Sébastien MULLER</h2>
+            <p>Aprés des études en Logistique et 9 ans à travailler dans ce domaine, j'ai souhaité réaliser un
+                reconversion
+                professionnelle dans le domaine du numérique</p>
+            <p>En Novembre 2020, j'ai débuté ma formation de Développeur Web et Web mobile qui se terminera en Juillet
+                2021.
+                Dans le cadre de cette formation, je recherche un stage de 3 mois durant lequel je dois
+                réaliser un projet afin de valider ma formation</p>
+            <div class="progressbar">Mon CV sera mis régulièrement à jour afin de vous donner un aperçu de l'avancée de
+                ma fomation, n'hésitez pas
+                à revenir le consulter</div>
 
-<!--Parcours à dérouler-->
-    <div id="course" class="container bglight col-lg-12">
-        <h2>PARCOURS</h2>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="main-timeline4">
-                    <div class="timeline">
-                        <div class="timeline-content">
-                            <span class="year">2020</span>
-                            <div class="inner-content">
-                                <h3 class="title">formation web et web mobile</h3>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex odio, rhoncus sit
-                                    amet tincidunt eu, suscipit a orci. In suscipit quam eget dui auctor.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline">
-                        <div class="timeline-content">
-                            <span class="year">2016</span>
-                            <div class="inner-content">
-                                <h3 class="title">Coordinateur Logistique</h3>
-                                <p class="description">
-                                    <strong>Kiabi Logistique de 2016 à 2020</strong><br>
-                                    - Management d’équipe<br>
-                                    - Gestion d’une activité logistique en entrepôt dans le respect des process et des
-                                    engagements du site
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline">
-                        <div class="timeline-content">
-                            <span class="year">2011</span>
-                            <div class="inner-content">
-                                <h3 class="title">Agent Logistique et Formateur</h3>
-                                <p class="description">
-                                    <strong>Kiabi Logistique de 2011 à 2016</strong><br>
-                                    - Réception, préparation et expédition de commandes<br>
-                                    - Formation des nouveaux arrivants<br>
-                                    - Missions transversales
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline">
-                        <div class="timeline-content">
-                            <span class="year">2010</span>
-                            <div class="inner-content">
-                                <h3 class="title">Pilote Projet</h3>
-                                <p class="description">
-                                    <strong>ISS pour le compte du Technicentre SNCF à
-                                        HELLEMMES en 2010</strong><br>
-                                    - Création de planning charge/capacité sous MS Project
-                                    pour la rénovation des rames de TGV<br>
-                                    - Analyse et Réorganisation d’un entrepôt de stockage
-                                    (encadrement d’une équipe de 4 agents)
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline">
-                        <div class="timeline-content">
-                            <span class="year">2018</span>
-                            <div class="inner-content">
-                                <h3 class="title">Web Designer</h3>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex odio, rhoncus sit
-                                    amet tincidunt eu, suscipit a orci. In suscipit quam eget dui auctor.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+    </section>
+    </div>
+
+    <section id="skill">
+        <div id="front"></div>
+
+        <div id="back"></div>
+        <div id="other"></div>
+        <div id="environnement"></div>
+    </section>
+
+    <section id="timeline" class="bgdark">
+        <h1 class="DIV_title">MON PARCOURS</h1>
+        <div class="DIV_content">
+            <div class="timeline">
+                <div class="type">
+                    <h4>Formation Développeur Web et Web mobile</h4>
+                    <span class="type_site">Centre de formation GRETA, Douai (59)</span>
+                </div>
+                <div class="split"></div>
+                <div class="year">2020</div>
+                <div class="description">
+                    <ul>
+                        <li>Management d’équipe</li>
+                        <li>Gestion d’une activité logistique en entrepôt dans le respect des process et des
+                            engagements du site</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline">
+                <div class="type">
+                <h4>Coordinateur Logistique</h4>
+                <span class="type_site">Kiabi Logistique, Lauwin-Planque (59)</span>
+            </div>
+                <div class="split"></div>
+                <div class="year">2016<br> à<br> 2020</div>
+                <div class="description">
+                    <ul>
+                        <li>Management d’équipe</li>
+                        <li>Gestion d’une activité logistique en entrepôt dans le respect des process et des
+                            engagements du site</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline">
+                <div class="type">
+                <h4>Agent Logistique et Formateur</h4>
+                <span class="type_site">Kiabi Logistique, Lauwin-Planque (59)</span>
+            </div>
+                <div class="split"></div>
+                <div class="year">2011<br> à<br> 2016</div>
+                <div class="description">
+                    <ul>
+                        <li>Réception, préparation et expédition de commandes</li>
+                        <li>Formation et intégration des nouveaux collaborateurs</li>
+                        <li>Missions transversales</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline">
+                <div class="type">
+                <h4>Pilote Projet</h4>
+                <span class="type_site">Société ISS pour le compte du Technicentre SNCF, Hellemmes (59)</span>
+            </div>
+                <div class="split"></div>
+                <div class="year">2010</div>
+                <div class="description">
+                    <ul>
+                        <li>Création de planning charge/capacité sous MS Project pour la rénovation des rames de TGV</li>
+                        <li>Analyse et Réorganisation d’un entrepôt de stockage
+                            (encadrement d’une équipe de 4 agents)</li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
 
 
     <img src="https://img.icons8.com/color/96/000000/css3.png" />
 
-
+    <!--Script Timeline-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Bootstrap-->
     <footer><a href="https://icons8.com/icon/21278/css3">CSS3 icon by Icons8</a></footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
