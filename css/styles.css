@@ -1,8 +1,7 @@
 *{
     /*border: solid black 1px;*/        
-'    font-family: 'Roboto', sans-serif;
-'
-    }
+    font-family: 'Roboto', sans-serif;
+}
     body{
         background: fixed url(../images/bgbody2.jpg);
         background-size: cover;
