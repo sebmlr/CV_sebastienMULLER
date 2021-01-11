@@ -1,6 +1,7 @@
 *{
     /*border: solid black 1px;*/        
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
     body{
         background: fixed url(../images/bgbody2.jpg);
@@ -101,14 +102,58 @@
         align-content: center;
         border-radius: 5px;
     }
-    .column_right{
+    #column_left{
         display: flex;
         flex-direction: column;
         align-items: center;
         border-radius: 5px;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-        margin-left: 20px;
+        margin-right: 10px;
         padding: 20px 20px 20px 20px;
+    }
+    #column_right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        margin-left: 10px;
+        padding: 20px 20px 20px 20px;
+    }
+    #column_right_intro{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2em;
+    }
+    #button_contact{
+        width: 250px;
+        height: 50px;
+        background-color: #e9412b;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        margin: 20px 20px 20px 20px;
+        border-radius: 5px;
+    }
+    #button_down_cv{
+        width: 250px;
+        height: 50px;
+        background-color: #333;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        margin: 20px 20px 20px 20px;
+        border-radius: 5px;
+    }
+    .progress{
+        width: 50vw;
+        height: 50px;
+        margin: 40px 20px 20px 20px;
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+        background-color: rgb(233, 233, 233);
+    }
+    .progress-bar{
+        background-color: #078bb3;
     }
 
     /*///// skill /////*/
@@ -214,6 +259,42 @@
         border-radius: 5px;
         padding: 10px 10px 10px 10px;
     }
+
+    /*///// portfolio /////*/
+    #portfolio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .portfolio1{
+        display: flex;
+        flex-direction: row;
+    }
+    .card_custom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 25vw;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+        margin: 20px;       
+    }
+    .card_custom.img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40vw;
+    }
+
+    /*///// footer /////*/
+    footer{
+        display: flex;
+        background-color: #2c2c2c;
+        color: white;
+    }
+
 
     @media (max-width:700px){
 

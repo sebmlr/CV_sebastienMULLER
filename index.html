@@ -8,14 +8,15 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style_progress.css">
 
     <title>CV Sébastien MULLER</title>
-    <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
@@ -23,7 +24,7 @@
     <header>
         <span class="header_intro">Bonjour, je m'appel Sébastien et je suis actuellement en formation pour
             devenir</span>
-        <h1 class="header_dwwm">Développeur WEB et WEB Mobile</h1>
+        <h1 class="header_dwwm">Développeur Web et Web Mobile</h1>
         <span class="header_presentation">Je suis à la recherche d'un <span class="strong">projet</span> à
             réaliser dans le cadre d'un stage afin de
             compléter ma formation.<br> Celui-ci doit se dérouler durant les mois d'<span class="strong">Avril, Mai et
@@ -51,7 +52,10 @@
                     <a class="nav-link" href="#timeline">Parcours</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
 
             </ul>
@@ -63,7 +67,7 @@
             <h1 class="DIV_title">À PROPOS DE MOI</h1>
         </div>
         <div class="aboute_me_content">
-            <div>
+            <div id="column_left" class="bglight">
                 <img src="images/cvphoto6.jpg" alt="photo_cv" height="450">
                 <table class="bglight">
                     <tr>
@@ -87,20 +91,33 @@
                     </tr>
                 </table>
             </div>
-            <div class="column_right bglight">
-                <h2>Sébastien MULLER</h2>
-                <p>Aprés des études en Logistique et 9 ans à travailler dans ce domaine, j'ai souhaité réaliser un
-                    reconversion
-                    professionnelle dans le domaine du numérique</p>
-                <p>En Novembre 2020, j'ai débuté ma formation de Développeur Web et Web mobile qui se terminera en
-                    Juillet
-                    2021.
-                    Dans le cadre de cette formation, je recherche un stage de 3 mois durant lequel je dois
-                    réaliser un projet afin de valider ma formation</p>
-                <div class="progressbar">Mon CV sera mis régulièrement à jour afin de vous donner un aperçu de l'avancée
-                    de
-                    ma fomation, n'hésitez pas
-                    à revenir le consulter</div>
+            <div id="column_right" class="bglight">
+                <div id="column_right_intro">
+                    <p>Aprés des études en Logistique et 9 ans à travailler dans ce domaine, j'ai souhaité réaliser une
+                        reconversion
+                        professionnelle dans le domaine du numérique pour élargir mes compétences.</p>
+                    <p>En Novembre 2020, j'ai débuté ma formation pour le titre professionnel de Développeur Web et Web
+                        mobile qui se terminera en
+                        Juillet
+                        2021.
+                        Dans le cadre de cette formation, je recherche un stage de 3 mois durant lequel je dois
+                        réaliser ou participer à un projet.</p>
+                    <p>L'examen qui suivra ce stage me permettra ensuite de valider mon titre professionnel.</p>
+                    <div class="progressbar">Mon CV sera mis régulièrement à jour afin de vous donner un aperçu de
+                        l'avancée
+                        de
+                        ma fomation, n'hésitez pas
+                        à revenir le consulter</div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            style="width: 33%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">3ème mois de
+                            formation</div>
+                    </div>
+                </div>
+                <div id="button_about">
+                    <button id="button_contact">CONTACT</button>
+                    <button id="button_down_cv">TÉLÉCHARGER LE CV</button>
+                </div>
             </div>
         </div>
     </section>
@@ -120,13 +137,15 @@
                         <tr>
                             <td><img src="https://img.icons8.com/color/40/000000/html-5.png" alt="HTML5"> HTML5</td>
                             <td></td>
-                            <td><img src="https://img.icons8.com/color/40/000000/bootstrap.png" alt="Bootstrap" /> Bootstrap</td>
+                            <td><img src="https://img.icons8.com/color/40/000000/bootstrap.png" alt="Bootstrap" />
+                                Bootstrap</td>
                             <td></td>
                         </tr>
                         <tr>
                             <td><img src="https://img.icons8.com/color/40/000000/css3.png" alt="CSS3"> CSS3</td>
                             <td></td>
-                            <td><img src="https://img.icons8.com/color/40/000000/javascript.png" alt="Javascript"> Javascript</td>
+                            <td><img src="https://img.icons8.com/color/40/000000/javascript.png" alt="Javascript">
+                                Javascript</td>
                             <td></td>
                         </tr>
                     </table>
@@ -159,9 +178,11 @@
                     <h3>Autres</h3>
                     <table>
                         <tr>
-                            <td><img src="https://img.icons8.com/color/40/000000/wordpress.png" alt="Wordpress"> Wordpress</td>
+                            <td><img src="https://img.icons8.com/color/40/000000/wordpress.png" alt="Wordpress">
+                                Wordpress</td>
                             <td></td>
-                            <td><img src="https://img.icons8.com/dotty/40/000000/slide-layout.png" alt="Maquettage"> Maquettage</td>
+                            <td><img src="https://img.icons8.com/dotty/40/000000/slide-layout.png" alt="Maquettage">
+                                Maquettage</td>
                             <td></td>
                         </tr>
                     </table>
@@ -174,17 +195,21 @@
                     <h3>Environnement de travail</h3>
                     <table>
                         <tr>
-                            <td><img src="https://img.icons8.com/color/40/000000/settings-3--v1.png" alt="OS"> <strong>OS
+                            <td><img src="https://img.icons8.com/color/40/000000/settings-3--v1.png" alt="OS">
+                                <strong>OS
                                     :</strong> Windows 10
                             </td>
-                            <td><img src="https://img.icons8.com/cotton/40/000000/code.png" alt="IDE"> <strong>IDE :</strong>
+                            <td><img src="https://img.icons8.com/cotton/40/000000/code.png" alt="IDE"> <strong>IDE
+                                    :</strong>
                                 Visual Studio Code,
                                 Php Storm</td>
                         </tr>
                         <tr>
-                            <td><img src="https://img.icons8.com/carbon-copy/40/000000/workflow.png" alt="WORKFLOW"> <strong>WORKFLOW
+                            <td><img src="https://img.icons8.com/carbon-copy/40/000000/workflow.png" alt="WORKFLOW">
+                                <strong>WORKFLOW
                                     :</strong> Git, GitHUB,
-                                Firefox, Chrome</td>
+                                Firefox, Chrome
+                            </td>
                         </tr>
                     </table>
                 </div>
@@ -200,12 +225,12 @@
             <div class="timeline">
                 <div class="type">
                     <h4><span class="iconify" data-icon="icons8:student" data-inline="false" data-width="40"
-                            data-height="40" style="color:#696161"></span> Formation Développeur Web et Web mobile (en cours)</h4>
+                            data-height="40" style="color:#696161"></span> Formation Développeur Web et Web mobile</h4>
                     <span class="type_site">Centre de formation GRETA, Douai (59)</span>
                 </div>
                 <div class="split1"></div>
                 <div class="split2"></div>
-                <div class="year">2020</div>
+                <div class="year">2020<br>(en cours)</div>
                 <div class="description">
                     <ul>
                         <li>Management d’équipe</li>
@@ -301,21 +326,58 @@
         </div>
     </section>
 
+    <section id="portfolio" class="bglight">
+        <h1 class="DIV_title">PORTFOLIO</h1>
+        <div class="portfolio1">
+            <div class="card_custom">
+                <div class="card_photo">
+                    <a href="https://sebmlr.github.io/Bergam/#" target="_blank"><img src="/images/portfolio/bergam.JPG"
+                            alt="Bergam" width="100%"></a>
+                </div>
+                <div class="card_description">
+                    <article>Premier site réalisé dans le cadre de la formation sur le thème de la restauration.
+                    </article>
+                </div>
+            </div>
+            <div class="card_custom">
+                <div class="card_photo">
+                    <a href="https://sebmlr.github.io/CV_stageDWWM/" target="_blank"><img src="/images/portfolio/cv.JPG"
+                            alt="cv" width="100%"></a>
+                </div>
+                <div class="card_description">
+                    <article>CV Développeur Web et Web mobile au format site réalisé dans le cadre d'une recherche de
+                        stage.
+                    </article>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="bgdark">
+        <h1 class="DIV_title">CONTACT</h1>
+    </section>
 
 
 
 
 
-    <footer><a href="https://icons8.com/icon/20909/html-5">HTML 5 icon by Icons8</a></footer>
 
 
+
+    <footer>
+        <span><a href="https://icons8.com/icon/"><img
+                    src="https://img.icons8.com/officel/30/000000/icons8-new-logo.png" /></a>Icons by Icons8</span>
+        <span>Created by Sébastien MULLER</span>
+    </footer>
+
+    <script src="/script_progress.js"></script>
     <!--Script Timeline-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!--Iconify-->
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <!--Bootstrap-->
-    <footer><a href="https://icons8.com/icon/21278/css3">CSS3 icon by Icons8</a></footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
