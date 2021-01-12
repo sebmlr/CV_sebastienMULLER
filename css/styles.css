@@ -18,6 +18,9 @@
         font-family: 'Raleway', sans-serif;
 
     }
+    img{
+        border-radius: 5px;
+    }
     .strong {
         font-weight: bold;
         font-size: 1.2em;
@@ -204,7 +207,7 @@
         display: flex;      
         flex: 4;
         flex-direction: column;
-        height: 100px;  
+        height: 120px;  
         padding: 10px 10px 10px 10px;
         font-family: 'Roboto', sans-serif;
         justify-content: center;
@@ -237,7 +240,7 @@
         display: flex;
         justify-content: center;
         align-items: center ;
-        height: 100px;        
+        height: 120px;        
         flex: 1;
         font: 1.5em bold;
         text-align: center;
@@ -250,7 +253,7 @@
     }
     .description{
         display: flex;
-        height: 100px;        
+        height: 120px;        
         flex: 4;
         align-items: center;
         background-color: rgb(255, 255, 255);
