@@ -30,9 +30,6 @@
     ul{
         margin-bottom: 0px;
     }
-    table{
-        width: 100%;
-    }
     .DIV_title{
         background-color: #e9582b;
         color: rgb(255, 255, 255);
@@ -127,7 +124,7 @@
         font-family: 'Roboto', sans-serif;
         font-size: 1.2em;
     }
-    #button_contact{
+    #button_down_cv:hover{
         width: 250px;
         height: 50px;
         background-color: #e9412b;
@@ -186,6 +183,10 @@
         border-radius: 5px;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     }
+    .table_skill{
+        width: 100%;
+    }
+
 
     /*///// timeline /////*/
     #timeline{
@@ -213,7 +214,7 @@
         justify-content: center;
         background-color: rgb(255, 255, 255);
         border-radius: 5px;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);    
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);   
     }
     .type_site{
         color: #5c5959;
@@ -291,9 +292,39 @@
         width: 40vw;
     }
 
+    /*///// contact /////*/
+    #contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact{
+        display: flex;
+        justify-content: space-around;
+        width: 80vw;
+    }
+    .card_contact{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 25vw;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+        margin: 20px;
+        padding: 10px 10px 10px 10px;       
+    }
+    #contactHidden{
+        display: none;
+        display: flex;
+        flex-direction: row;
+    }
+
+
     /*///// footer /////*/
     footer{
         display: flex;
+        justify-content: space-around;
+        font-size: 5px;
         background-color: #2c2c2c;
         color: white;
     }

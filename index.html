@@ -92,7 +92,7 @@
                 </table>
             </div>
             <div id="column_right" class="bglight">
-                <div id="column_right_intro">
+                <article id="column_right_intro">
                     <p>Aprés des études en Logistique et 9 ans à travailler dans ce domaine, j'ai souhaité réaliser une
                         reconversion
                         professionnelle dans le domaine du numérique pour élargir mes compétences.</p>
@@ -107,15 +107,15 @@
                         l'avancée
                         de
                         ma fomation, n'hésitez pas
-                        à revenir le consulter</div>
+                        à revenir le consulter
+                    </div>
                     <div class="progress">
                         <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                             style="width: 33%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">3ème mois de
                             formation</div>
                     </div>
-                </div>
+                </article>
                 <div id="button_about">
-                    <button id="button_contact">CONTACT</button>
                     <button id="button_down_cv">TÉLÉCHARGER LE CV</button>
                 </div>
             </div>
@@ -130,7 +130,7 @@
                     class="iconify" data-icon="herocions-solid:code" data-inline="false" style="color: #3786ec"></span>
                 <div class="skill_detail table_section bgdark">
                     <h3>Front-end</h3>
-                    <table>
+                    <table class="table_skill">
                         <tr>
                             <td>Développement agile</td>
                         </tr>
@@ -156,13 +156,13 @@
             <div class="skill_sectionRigth">
                 <div class="skill_detail table_section bgdark">
                     <h3>Back-end</h3>
-                    <table>
+                    <table class="table_skill">
                         <tr>
                             <td>Programmation orientée objet</td>
                         </tr>
                         <tr>
                             <td><img src="https://img.icons8.com/ios/40/000000/mysql-logo.png" alt="MySQL"> MySQL</td>
-                            <td></td>
+                            <td><img src="https://img.icons8.com/dusk/40/000000/php-logo.png" alt="PHP"> PHP</td>
                         </tr>
                     </table>
                 </div>
@@ -176,7 +176,7 @@
                     data-height="200" style="color: #2d9c3f"></span>
                 <div class="skill_detail table_section bgdark">
                     <h3>Autres</h3>
-                    <table>
+                    <table class="table_skill">
                         <tr>
                             <td><img src="https://img.icons8.com/color/40/000000/wordpress.png" alt="Wordpress">
                                 Wordpress</td>
@@ -193,7 +193,7 @@
             <div class="skill_sectionRigth">
                 <div class="skill_detail table_section bgdark">
                     <h3>Environnement de travail</h3>
-                    <table>
+                    <table class="table_skill">
                         <tr>
                             <td><img src="https://img.icons8.com/color/40/000000/settings-3--v1.png" alt="OS">
                                 <strong>OS
@@ -335,19 +335,19 @@
                             alt="Bergam" width="100%"></a>
                 </div>
                 <div class="card_description">
-                    <article>Premier site réalisé dans le cadre de la formation sur le thème de la restauration.
-                    </article>
+                    <p>Premier site réalisé dans le cadre de la formation sur le thème de la restauration.
+                    </p>
                 </div>
             </div>
             <div class="card_custom">
                 <div class="card_photo">
-                    <a href="https://sebmlr.github.io/CV_stageDWWM/" target="_blank"><img src="images/cv.JPG"
-                            alt="cv" width="100%"></a>
+                    <a href="https://sebmlr.github.io/CV_stageDWWM/" target="_blank"><img src="images/cv.JPG" alt="cv"
+                            width="100%"></a>
                 </div>
                 <div class="card_description">
-                    <article>CV Développeur Web et Web mobile au format site réalisé dans le cadre d'une recherche de
+                    <p>CV Développeur Web et Web mobile au format site réalisé dans le cadre d'une recherche de
                         stage.
-                    </article>
+                    </p>
                 </div>
             </div>
 
@@ -356,10 +356,54 @@
 
     <section id="contact" class="bgdark">
         <h1 class="DIV_title">CONTACT</h1>
+        <div id="showhide"><span onclick="showhide('contactHidden');" class="iconify"
+                data-icon="eva:arrow-circle-down-fill" data-inline="false" data-width="80" data-height="80"></span>
+        </div>
+        <div id="contactHidden" class="contact" style="display: none;">
+            <div class="card_contact bglight">
+                <div class="card_photo"><span class="iconify" data-icon="fluent:location-48-regular" data-inline="false"
+                        data-width="80" data-height="80"></span>
+                </div>
+                <div class="card_description">
+                    <span>Sébastien MULLER
+                        <br>149 rue Saint Julien
+                        <br>59500 Douai
+                    </span>
+                </div>
+            </div>
+
+            <div class="card_contact bglight">
+                <div class="card_photo"><span class="iconify" data-icon="bi:phone" data-inline="false" data-width="80"
+                        data-height="80"></span>
+                </div>
+                <div class="card_description">
+                    <span>+33 6 48 36 01 78
+                    </span>
+                </div>
+            </div>
+
+            <div class="card_contact bglight">
+                <div class="card_photo"><span class="iconify" data-icon="feather:mail" data-inline="false"
+                        data-width="80" data-height="80"></span>
+                </div>
+                <div class="card_description">
+                    <span>seb.mlr@hotmail.fr
+                    </span>
+                </div>
+            </div>
+
+            <div class="card_contact bglight">
+                <div class="card_photo"><span class="iconify" data-icon="carbon:car" data-inline="false" data-width="80"
+                        data-height="80"></span>
+                </div>
+                <div class="card_description">
+                    <span>Permis B et<br>véhicule personnel
+                    </span>
+                </div>
+            </div>
+        </div>
+
     </section>
-
-
-
 
 
 
@@ -371,10 +415,11 @@
         <span>Created by Sébastien MULLER</span>
     </footer>
 
-    <script src="/script_progress.js"></script>
+    <!--Script contact-->
+    <script src="/js/script_show.js"></script>
     <!--Script Timeline-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <scrip src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></scrip>
+    <scrip src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></scrip>
     <!--Iconify-->
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <!--Bootstrap-->
