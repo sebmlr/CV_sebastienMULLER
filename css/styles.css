@@ -165,26 +165,53 @@
         align-items: center;
     }
     .skill_sectionRigth{
-        width: 50vw;
+        width: 55vw;
         display: flex;
-        margin: 20px 0px 20px 0px;
-        margin-left: 400px;
+        margin: 20px 0px 20px 400px;
+        align-items: center;
     }
     .skill_sectionLeft{
-        width: 50vw;
+        width: 55vw;
         display: flex;
-        margin-right: 400px;
+        margin: 20px 400px 20px 0px;
+        align-items: center;
     }
-    .skill_detail{
+    .skill_content{
         display: flex;
         flex-direction: column;
         flex: 1;
         padding: 20px 20px 20px 20px;
+        margin: 0px 20px 0px 20px;
         border-radius: 5px;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     }
-    .table_skill{
-        width: 100%;
+    .skill_detail{
+        display: flex;
+        justify-content: space-between;
+    }
+    .skill_item{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    .itemContent{
+        display: flex;
+        justify-content: space-between;
+    }
+    .starSkill{
+        margin: 5px 50px 0px 0px;
+    }
+    .star1{
+        content: url('https://api.iconify.design/clarity:star-solid.svg?color=%23e9412b&width=20&height=20');
+        vertical-align: -0.125em;
+    }
+    .star2{
+        content: url('https://api.iconify.design/clarity:half-star-solid.svg?color=%23e9412b&width=20&height=20');
+        vertical-align: -0.125em;
+    }
+    .star3{
+        content: url('https://api.iconify.design/clarity:star-line.svg?color=%23e9412b&width=20&height=20');
+        vertical-align: -0.125em;
     }
 
 
@@ -319,7 +346,6 @@
         flex-direction: row;
     }
 
-
     /*///// footer /////*/
     footer{
         display: flex;
@@ -331,5 +357,57 @@
 
 
     @media (max-width:700px){
+    .DIV_title{
+        background-color: #e9582b;
+        color: rgb(255, 255, 255);
+        padding: 22px;
+        border-radius: 5px;
+        margin: 0px 0px 0px 0px;
+        width: 100vw;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    /*///// header /////*/
+    header{
+        justify-content: space-evenly;
+    }
+    .header_intro{
+        font-size: 1.3em;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .header_dwwm{
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .header_presentation{
+        width: 100vw;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    
+    /*///// about me /////*/
+    .aboute_me_content{
+        flex-direction: column;
+        width: 100vw;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+    .aboute_me_content img{
+        width: 90vw;
+        height: auto;
+    }
+    #column_left{
+        display: flex;
+        margin-right: 0px;
+        box-shadow: 0 0 0;
+    }
+    #column_right{
+        box-shadow: 0 0 0;
+        margin-left: 0px;
+    }
 
-}
+
+
+    }
