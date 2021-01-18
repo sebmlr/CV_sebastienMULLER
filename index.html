@@ -33,7 +33,7 @@
         <nav id="nav_main"></nav>
     </header>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" role="navigation">
         <a class="navbar-brand" href="#"><span class="iconify" data-icon="clarity:home-line" data-inline="false"
                 style="color: #fff;" data-width="30" data-height="30"></span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -67,7 +67,7 @@
         </div>
         <div class="aboute_me_content">
             <div id="column_left" class="bglight">
-                <img src="images/cvphoto6.jpg" alt="photo_cv" height="450">
+                <img src="images/cvphoto72.jpg" alt="photo_cv" height="450">
                 <table class="bglight">
                     <tr>
                         <td><strong>Nom :</strong> Sébastien MULLER</td>
@@ -92,21 +92,24 @@
             </div>
             <div id="column_right" class="bglight">
                 <article id="column_right_intro">
-                    <p>Aprés des études en Logistique et 9 ans à travailler dans ce domaine, j'ai souhaité réaliser une
+                    <p>Aprés des études en Logistique et 9 ans passés chez Kiabi Logistique, j'ai souhaité réaliser une
                         reconversion
-                        professionnelle dans le domaine du numérique pour élargir mes compétences.</p>
+                        professionnelle dans le domaine du numérique pour élargir mes horizons.</p>
                     <p>En Novembre 2020, j'ai débuté ma formation pour le titre professionnel de Développeur Web et Web
                         mobile qui se terminera en
                         Juillet
                         2021.
-                        Dans le cadre de cette formation, je recherche un stage de 3 mois durant lequel je dois
-                        réaliser ou participer à un projet.</p>
-                    <p>L'examen qui suivra ce stage me permettra ensuite de valider mon titre professionnel.</p>
-                    <div class="progressbar">Mon CV sera mis régulièrement à jour afin de vous donner un aperçu de
-                        l'avancée
-                        de
-                        ma fomation, n'hésitez pas
-                        à revenir le consulter
+                        Pour faire un premier pas dans ce nouveau milieu professionnel et dans le cadre de cette
+                        formation, je recherche un stage de 3 mois durant lequel je dois
+                        réaliser ou participer à un projet.
+                        L'examen qui suivra ce stage me permettra ensuite de valider mon titre professionnel.</p>
+                    <p>Je suis quelqu'un d'autonome et d'organiser qui sait s'adapter rapidement aux différentes
+                        situations. J'aime autant de travailler en équipe que seul et je suis de nature plutôt calme ce
+                        qui me
+                        permet d'avoir une bonne prise de recule lorsque cela est nécessaire.</p>
+                    <div class="progressbar">Mon CV sera mis régulièrement à jour sur l'avancé de ma formation mais
+                        aussi au niveau du code que je viendrais incrémenter au fur et à mesure avec les compétences
+                        acquisens au cours de la formation.
                     </div>
                     <div class="progress">
                         <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
@@ -115,7 +118,11 @@
                     </div>
                 </article>
                 <div id="button_about">
-                    <button id="button_down_cv">TÉLÉCHARGER LE CV</button>
+                    <a target="blank"
+                        href="https://drive.google.com/file/d/1R7JVht7oPgPjjhYVesAGKvFponouGFfK/view?usp=sharing"><button
+                            id="button_down_cv">TÉLÉCHARGER LE CV </button></a> <a target="_blank"
+                        href="https://www.linkedin.com/in/sébastien-muller-a2b506197"><img
+                            src="https://img.icons8.com/fluent/65/000000/linkedin.png" alt="linkedin"></a>
                 </div>
             </div>
         </div>
@@ -229,7 +236,8 @@
                             </div>
                             <div class="itemContent">
                                 <div>
-                                    <span class="iconify" data-icon="vscode-icons:file-type-mysql" data-inline="false" data-width="40" data-height="40"></span>
+                                    <span class="iconify" data-icon="vscode-icons:file-type-mysql" data-inline="false"
+                                        data-width="40" data-height="40"></span>
                                     MySQL Workbench
                                 </div>
                                 <div class="starSkill">
@@ -295,9 +303,11 @@
                 <div class="year">2020<br>(en cours)</div>
                 <div class="description">
                     <ul>
-                        <li>Management d’équipe</li>
-                        <li>Gestion d’une activité logistique en entrepôt dans le respect des process et des
-                            engagements du site</li>
+                        <li>Front-end : Maquetter une application, réaliser une interface utilisateur web statique,
+                            adaptable, dynamique et avec une solution de gestion e-commerce </li>
+                        <li>Back-end : Créer une base de donnée, développer la partie back-end d'une application
+                            web/mobile et les composants d'accés aux données, élaborer les
+                            composants de gestion de contenu ou e-commerce</li>
                     </ul>
                 </div>
             </div>
@@ -418,10 +428,10 @@
 
     <section id="contact" class="bgdark">
         <h1 class="DIV_title">CONTACT</h1>
-        <div id="showhide"><span onclick="showhide('contactHidden');" class="iconify"
+        <!--<div id="showhide"><span onclick="showhide('contactHidden');" class="iconify"
                 data-icon="eva:arrow-circle-down-fill" data-inline="false" data-width="80" data-height="80"></span>
-        </div>
-        <div id="contactHidden" class="contact" style="display: none;">
+        </div>-->
+        <div id="contactHidden" class="contact">
             <div class="card_contact bglight">
                 <div class="card_photo"><span class="iconify" data-icon="fluent:location-48-regular" data-inline="false"
                         data-width="80" data-height="80"></span>
@@ -477,8 +487,9 @@
         <span>Created by Sébastien MULLER</span>
     </footer>
 
-    <!--Script contact-->
-    <script src="/js/script_show.js"></script>
+
+    <!--Script contact (déactivé pour l'instant, pas pris e ncompte sur GitHub)
+    <script src="/js/script_show.js"></script>-->
     <!--Script Timeline-->
     <scrip src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></scrip>
     <scrip src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></scrip>
