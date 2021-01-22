@@ -541,23 +541,10 @@ nav{
             color:#2c2c2c;
             display: flex;
             flex-direction: column;
-            width: 100vw;
+            width: 98.2vw;
         }
         section, header{
             padding: 40px 0px 40px 0px;
-        }
-        h1, h2, h3, h4{
-            font-family: 'Raleway', sans-serif;
-    
-        }
-        img{
-            border-radius: 5px;
-        }
-        .strong {
-            font-weight: bold;
-            font-size: 1.2em;
-            color: #e9582b;
-            font-family: 'Raleway', sans-serif;
         }
         ul{
             margin-bottom: 0px;
@@ -571,22 +558,11 @@ nav{
             width: 100%;
             text-align: center;
             font-family: 'Raleway', sans-serif;
-        }
-        .DIV_content{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .bglight{
-            background-color: rgb(255, 255, 255);
-        }
-        .bgdark{
-            background-color: rgb(233, 233, 233);
-        }       
+        }     
     
         /*///// header /////*/
         header{
-            justify-content: space-evenly;
+            justify-content: space-around;
         }
         .header_intro{
             font-size: 1.3em;
@@ -815,7 +791,7 @@ nav{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        width: 100vw;
+        width: 100%;
     }
     .card_contact{
         display: flex;
